@@ -49,17 +49,7 @@
 
   
 
-{% if theme.daovoice %}
-  <script>
-  (function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/0f81ff2f.js","daovoice")
-  daovoice('init', {
-      app_id: "{{theme.daovoice_app_id}}"
-    });
-  daovoice('update');
-  </script>
-{% endif %}
 </head>
-
 
 <body>
   <div id="container" q-class="show:isCtnShow">
@@ -72,7 +62,7 @@
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
-			<img src="/img/ann.png" class="js-avatar">
+			<img src="/img/head.jpg" class="js-avatar">
 		</a>
 		<hgroup>
 			<h1 class="header-author"><a href="/">Answer</a></h1>
@@ -120,18 +110,6 @@
 				
 			</div>
 		
-			
-			
-			
-			
-			<div>
-				<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="240" height="86" src="//music.163.com/outchain/player?type=2&id=1436910205&auto=1&height=66"></iframe>
-			</div>
-			
-				
-				<p style="font-size: 12px;">城南花已开，愿君长安在！<p>
-			
-		
 		</nav>
 	</header>		
 </div>
@@ -155,7 +133,7 @@
 		<header id="header" class="inner">
 			<div class="profilepic">
 				<a href="/">
-					<img src="/img/ann.png" class="js-avatar">
+					<img src="/img/head.jpg" class="js-avatar">
 				</a>
 			</div>
 			<hgroup>
@@ -480,29 +458,14 @@
     
     	<section class="tools-section tools-section-me" q-show="aboutme">
         
-                    <div class="aboutme-wrap">
-                        <div style="display:;">
-                            <script type="text/javascript" src="https://api.lwl12.com/hitokoto/v1?encode=js&charset=utf-8"></script>
-                            <p style="margin:0 20px 0 20px;">
-                                <span id="lwlhitokoto">
-                                    <script>
-                                        lwlhitokoto();
-                                    </script>
-                                </span>
-                            </p>
-                            <p id="js-aboutme" style="margin:0 20px 0 20px;">主要涉及技术：&lt;br&gt;Java后端开发、聚合支付、&lt;br&gt;公众号开发、开源爱好者、Linux&lt;br&gt;&lt;br&gt;联系QQ:2434387555&lt;br&gt;&lt;br&gt;很惭愧&lt;br&gt;&lt;br&gt;只做了一点微小的工作&lt;br&gt;谢谢大家</P>
-                        </div>
-                    </div>
-                
-        ————————————————
-        版权声明：本文为CSDN博主「codeant_csdn」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-        原文链接：https://blog.csdn.net/qq_37513473/article/details/88617281
+          
+  	  		<div class="aboutme-wrap" id="aboutme">主要涉及技术：<br>Java后端开发、聚合支付、<br>公众号开发、开源爱好者、Linux<br><br>联系QQ:2434387555<br><br>很惭愧<br><br>只做了一点微小的工作<br>谢谢大家</div>
+  	  	
     	</section>
     
   </div>
   
 </div>
-
     <!-- Root element of PhotoSwipe. Must have class pswp. -->
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
